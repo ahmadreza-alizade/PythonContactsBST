@@ -1,8 +1,10 @@
+#
 #creator : ahmadreza alizade fard
 #stu_num : 9711150208
 #name : notebookcontacts
 #version : 1.0
 #data structure : BST  binary-search-tree
+#
 
 def sorting_inorder_num(Root):
     name_list = []
@@ -270,7 +272,6 @@ print("-------------------------------")
 for el in sorting_inorder_name(my_contacts.root):
     print("{}:{}".format(el[0], el[1]))
 
-
 #print(my_contacts.remove(2))
 print("----------------------------------------------")
 #my_contacts.similarity_search_name("k")
@@ -287,4 +288,3 @@ my_contacts.check_num_OR_name_root(2, "ali")
 
 #print(my_contacts.search(937))
 #print(my_contacts.search_name("ahmad"))
-
