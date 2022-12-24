@@ -1,9 +1,9 @@
 #
-#creator : ahmadreza alizade fard
-#stu_num : 9711150208
-#name : notebookcontacts
-#version : 1.0
-#data structure : BST  binary-search-tree
+# creator : ahmadreza alizade fard
+# name : notebookcontacts
+# version : 1.0
+# course : data structure
+# description : BST  binary-search-tree
 #
 
 def sorting_inorder_num(Root):
